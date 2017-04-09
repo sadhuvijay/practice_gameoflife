@@ -1,6 +1,6 @@
 ---
 - hosts: tomcatserver
-  become: yes
+  sudo: yes
 
   tasks:
 
